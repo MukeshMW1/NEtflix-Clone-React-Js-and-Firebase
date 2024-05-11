@@ -1,0 +1,56 @@
+.player {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.player img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.player iframe {
+    border-radius: 10px;
+
+}
+
+
+.player-info {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+
+
+@media (max-width:800px) {
+
+
+    .player img {
+        width: 40px;
+    }
+
+
+    .player iframe {
+        max-height: 500px;
+
+    }
+
+    .player-info {
+        font-size: 12px;
+    }
+
+    .player-info .desc {
+        width: 200px;
+        height: 40px;
+
+
+    }
+}

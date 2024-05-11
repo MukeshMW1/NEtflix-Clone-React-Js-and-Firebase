@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    gap: 40px;
+    margin: 10vh auto;
+}
+
+
+
+
+.main input {
+    font-size: 28px;
+    border-radius: 20px;
+
+    padding: 20px;
+}
+
+
+
+.main button {
+    padding: 20px;
+    border-radius: 20px;
+}
