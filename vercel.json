@@ -1,0 +1,16 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/login",
+            "dest": "/"
+        },
+        {
+            "src": "/player/:id",
+            "dest": "/"
+        }
+    ]
+}
